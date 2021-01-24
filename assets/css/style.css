@@ -100,7 +100,7 @@ h6 {
 p {
     margin-top: 0;
     margin-bottom: 1rem;
-    font-size: 15px;
+    font-size: 14px;
     color: #000;
 }
 
@@ -123,7 +123,7 @@ hr {
 
 .form_item {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 .form_item input,
@@ -148,9 +148,9 @@ hr {
 }
 
 .form_item input {
-    height: 60px;
+    height: 40px;
     padding: 0px 30px;
-    border-radius: 45px;
+    border-radius: 10px;
 }
 
 .form_item textarea {
@@ -804,8 +804,8 @@ hr {
     line-height: 1;
     font-size: 16px;
     overflow: hidden;
-    padding: 19px 50px;
-    padding-bottom: 20px;
+    padding: 10px 41px;
+    padding-bottom: 12px;
     text-align: center;
     position: relative;
     border-radius: 45px;
@@ -1023,7 +1023,7 @@ hr {
     line-height: 1.389;
     letter-spacing: -0.9px;
     color: #051441;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald';
 }
 
 .section_title .title_text strong {
@@ -3070,7 +3070,7 @@ button {
 }
 
 .footer_section .form_item input {
-    height: 50px;
+    height: 44px;
 }
 
 .footer_section .form_item button[type=submit] {
@@ -4018,7 +4018,7 @@ button {
 }
 
 .seo_section .form_wrap>ul>li .form_item input {
-    height: 50px;
+    height: 40px;
     border: none;
     padding: 0px 25px;
 }
@@ -7121,7 +7121,7 @@ button {
     font-size: 20px;
 }
 .cart_section .form_item input {
-    height: 55px;
+    height: 40px;
 }
 .cart_section .form_item .btn {
     top: 50%;
@@ -7218,7 +7218,7 @@ button {
     font-size: 15px;
 }
 .checkout_section .report_info .card-body .form_item input {
-    height: 55px;
+    height: 40px;
 }
 .checkout_section .report_info .card-body .btn.bg_default_blue {
     width: 100%;
@@ -9132,7 +9132,7 @@ button {
     transform: scaleX(1);
 }
 .banner_section .form_item input {
-    height: 45px;
+    height: 40px;
     padding: 0px 30px;
     border: 1px solid #f5f5f7;
     -webkit-box-shadow: 0px 30px 30px 0px rgba(0, 11, 40, 0.1);
@@ -16641,7 +16641,7 @@ button {
     }
     
     .form_item input {
-        height: 50px;
+        height: 40px;
     }
     
     .form_item .input_title {
@@ -17273,7 +17273,7 @@ button {
     }
     
     .banner_section .form_item input {
-        height: 50px;
+        height: 40px;
         padding: 0px 20px;
     }
     
@@ -18175,7 +18175,7 @@ button {
     /* global reset - start */
     
     .form_item input {
-        height: 45px;
+        height: 40px;
         padding: 0px 20px;
     }
     
@@ -21566,7 +21566,7 @@ button {
     }
     
     .form_item {
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     
     .section_title .title_text {
@@ -22681,7 +22681,7 @@ button {
 ::placeholder {
     color: #999999!important;
     opacity: 1;
-    font-size: 18px;
+    font-size: 14px;
     /* Firefox */
 }
 .icon-b {
@@ -22901,7 +22901,7 @@ img {
     background: #eceff1;
 }
 .equity-invest-haeding {
-    text-align: initial;
+    text-align: center;
     font-size: 33px;
     font-family: 'Oswald';
 }
@@ -22912,7 +22912,7 @@ img {
     padding: 8px;
 }
 .eq-invest-heading {
-    margin-top: 23px;
+    margin-top: 10px;
     color: #000000;
     font-weight: 400;
     font-family: 'Oswald';
@@ -22923,4 +22923,32 @@ img {
     font-size: 14px;
     text-align: left;
     color: #000000;
+}
+.steps {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #c2c2c2;
+    box-shadow: 0px 0px 0px #000;
+    margin-left: 10px;
+}
+.icon-center {
+    text-align: center;
+    font-family: 'Oswald'!important;
+}
+.icon-img {
+    height: 50px;
+    width: 50px;
+}
+.icon-img1 {
+    height: 50px;
+    width: 50px;
+}
+.icon-design1 {
+    font-size: 35px;
+    color: #fbfbfb;
+    text-align: center!important;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    padding: 10px;
+    border-radius: 50px;
 }
