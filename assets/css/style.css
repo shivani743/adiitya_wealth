@@ -2130,9 +2130,10 @@ button {
 .header_section .main_menu>ul>li>a {
     display: block;
     line-height: 1;
-    font-size: 15px;
+    font-size: 16px;
     color: #051441;
     font-weight: 500;
+    font-family: 'Oswald';
 }
 
 .header_section .main_menu>ul>li:hover>a,
@@ -2297,10 +2298,11 @@ button {
 .main_menu .menu_item_has_child .submenu>li>a {
     width: 100%;
     display: block;
-    font-size: 14px;
+    font-size: 16px;
     padding: 1px 25px;
     white-space: nowrap;
     color: #051441;
+    font-family: 'Oswald';
 }
 
 .main_menu .menu_item_has_child .submenu>li:hover>a,
