@@ -22649,7 +22649,7 @@ button {
 .home--reason {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    grid-gap: 6px;
+    grid-gap: 17px;
     list-style: none;
 }
 .home--reason-head {
@@ -22660,7 +22660,7 @@ button {
     font-family: 'Oswald', sans-serif!important;
 }
 .home--reason-para {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 22px;
     color: #4d4d4d;
     margin-bottom: 12px;
