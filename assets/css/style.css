@@ -518,6 +518,7 @@ hr {
     display: table;
     list-style: none;
     text-align: initial;
+    font-size: 14px;
 }
 
 .ul_li_right>ul {
