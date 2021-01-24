@@ -4859,7 +4859,7 @@ button {
     z-index: -1;
     display: block;
     line-height: .1;
-    max-width: 8px;
+    max-width: 9px;
     position: absolute;
 }
 .feature_section .child_feature .item_icon .icon_deco_1 {
