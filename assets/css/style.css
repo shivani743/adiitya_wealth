@@ -104,13 +104,14 @@ p {
     color: #000;
 }
 
-strong,
+
+/* strong,
 span,
 small,
 label,
 i {
     font-family: 'Open Sans', sans-serif;
-}
+} */
 
 hr {
     height: 1px;
@@ -4811,6 +4812,7 @@ button {
     padding: 7px 19px;
     position: relative;
     font-weight: 500;
+    font-family: 'Oswald', sans-serif!important;
 }
 
 
@@ -4827,6 +4829,7 @@ button {
     -o-transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     background-color: #4154f1;
+    font-family: 'Oswald', sans-serif!important;
 }
 .feature_section .section_title .tabs_nav>ul>li>a:hover,
 .feature_section .section_title .tabs_nav>ul>li>a.active {
@@ -8969,11 +8972,11 @@ button {
     font-size: 60px;
     position: relative;
     letter-spacing: -0.9px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 .banner_section .banner_content .title_text span,
 .banner_section .banner_content .title_text strong {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 .banner_section .banner_content p {
     font-size: 18px;
@@ -9153,8 +9156,9 @@ button {
 .banner_section.text-white .banner_content .title_text {
     color: #f4f4f4;
     text-shadow: 4px 4px 4px #00000042;
-    font-size: 37px;
+    font-size: 44px;
     font-weight: bolder;
+    font-family: 'Oswald', sans-serif!important;
 }
 .banner_section.text-white .banner_content .btn_text {
     color: #ffffff;
@@ -22599,6 +22603,7 @@ button {
     font-weight: 500;
     font-size: 16px;
     text-align: center;
+    font-family: 'Oswald', sans-serif!important;
 }
 .p2 {
     color: #000;
@@ -22606,6 +22611,7 @@ button {
     line-height: 29px;
     font-weight: 500;
     text-align: center;
+    font-family: 'Oswald', sans-serif!important;
 }
 .home--info {
     display: flex;
@@ -22648,7 +22654,8 @@ button {
     font-size: 17px;
     margin-bottom: 0px;
     color: #000;
-    font-weight: 500;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif!important;
 }
 .home--reason-para {
     font-size: 14px;
@@ -22951,4 +22958,9 @@ img {
     border: 1px solid #ebebeb;
     padding: 10px;
     border-radius: 50px;
+}
+.head-text {
+    font-size: 40px;
+    font-family: 'Oswald';
+    color: #fff;
 }
