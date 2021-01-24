@@ -101,6 +101,7 @@ p {
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: 15px;
+    color: #000;
 }
 
 strong,
@@ -1056,7 +1057,7 @@ hr {
 }
 
 .section_title p {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .section_title .icon {
@@ -1188,7 +1189,7 @@ hr {
 }
 
 .section_title.decrease_size .title_text {
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .section_title.text-white .sub_title {
@@ -22895,4 +22896,31 @@ img {
     color: #ffe600;
     font-weight: 400;
     font-family: 'Oswald';
+}
+.bg-color {
+    background: #eceff1;
+}
+.equity-invest-haeding {
+    text-align: initial;
+    font-size: 33px;
+    font-family: 'Oswald';
+}
+.eq-icon-list {
+    font-size: 47px;
+    border-radius: 49px;
+    border: 1px dotted #0097fb;
+    padding: 8px;
+}
+.eq-invest-heading {
+    margin-top: 23px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Oswald';
+    text-align: initial;
+    font-size: 17px;
+}
+.equity-paragraph {
+    font-size: 14px;
+    text-align: left;
+    color: #000000;
 }
