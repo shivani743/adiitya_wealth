@@ -5528,34 +5528,38 @@ button {
 .service_carousel .item {
     padding: 35px 0px;
 }
-.service_carousel .item .service_boxed_2 {
+
+/* .service_carousel .item .service_boxed_2 {
     -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.08);
     box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.08);
 }
 .service_carousel .item .service_boxed_2:hover {
     -webkit-box-shadow: 0px 15px 30px 0px rgba(38, 59, 94, 0.1);
     box-shadow: 0px 15px 30px 0px rgba(38, 59, 94, 0.1);
-}
+} */
 .service_boxed_2 {
     padding: 40px 30px;
     border-radius: 6px;
-    padding-bottom: 170px;
+    padding-bottom: 31px;
     background-color: #ffffff;
     -webkit-transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     -o-transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     background-size: 155px auto;
     background-position: right 30px bottom 30px;
-    -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.08);
-    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.08);
+    /* -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.08); */
+    
+    min-height: 250px;
 }
-.service_boxed_2:hover {
+
+/* .service_boxed_2:hover {
     -webkit-transform: translateY(-16px);
     -ms-transform: translateY(-16px);
     transform: translateY(-16px);
     -webkit-box-shadow: 0px 15px 30px 0px rgba(38, 59, 94, 0.1);
     box-shadow: 0px 15px 30px 0px rgba(38, 59, 94, 0.1);
-}
+} */
 .service_boxed_2 .item_icon {
     float: right;
 }
