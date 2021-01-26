@@ -3004,8 +3004,9 @@ button {
 }
 
 .footer_section .footer_bottom {
-    padding: 10px 0px;
-    border-top: 1px solid #ffffff;
+    padding: 7px 0px;
+    border-top: 1px solid #000000;
+    background: #ffe600;
 }
 
 .footer_section .copyright_text .author_link {
@@ -3186,7 +3187,7 @@ button {
     overflow: hidden;
     min-height: 0px;
     padding: 45px 0px;
-    background-image: linear-gradient(30deg, #301cab 0%, #5774fa 100%);
+    /* min-height: 370px; */
 }
 
 
@@ -3288,6 +3289,7 @@ button {
 
 .breadcrumb_section.text-white .breadcrumb_content .page_title {
     color: #ffffff;
+    font-family: 'Oswald';
 }
 
 .breadcrumb_section.text-white .breadcrumb_content .breadcrumb_nav>ul>li:after {
@@ -3702,13 +3704,14 @@ button {
 }
 
 .testimonial_section .testimonial_carousel_2 .testimonial_item .admin_content {
-    display: table;
     padding-top: 7px;
 }
 
 .testimonial_section .testimonial_carousel_2 .testimonial_item .admin_content .admin_name {
     font-size: 20px;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
+    margin-top: 9px;
+    font-family: 'Oswald';
 }
 
 .testimonial_section .testimonial_carousel_2 .testimonial_item .admin_content .admin_title {
@@ -5954,21 +5957,23 @@ button {
     transition-delay: .3s;
 }
 .team_grid .member_name {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 .team_grid .member_name>a {
-    font-size: 22px;
-    color: #051441;
-    font-family: "Sofia Pro Bold";
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Oswald';
+    margin-bottom: -2px;
 }
 .team_grid:hover .member_name>a {
     color: #4154f1;
 }
 .team_grid .member_title {
-    line-height: 1;
-    color: #6a7c92;
-    font-size: 14px;
+    line-height: 0;
+    color: #000000;
+    font-size: 13px;
     display: inline-block;
+    font-weight: 600;
 }
 
 /* 15 - team page - end
@@ -7393,8 +7398,10 @@ button {
     margin-bottom: 40px;
 }
 .details_section .title_text {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 30px;
+    font-family: 'Oswald';
+    font-weight: 400;
 }
 .details_section .chield_item.bg_gray {
     background-color: #fbfbfd;
@@ -22612,7 +22619,7 @@ button {
 .p2 {
     color: #000;
     font-size: 17px;
-    line-height: 29px;
+    line-height: 60px;
     font-weight: 500;
     text-align: center;
     font-family: 'Oswald', sans-serif!important;
@@ -22717,6 +22724,8 @@ button {
 .heading1 {
     font-weight: 700;
     text-align: center;
+    font-family: 'Oswald';
+    font-size: 46px;
 }
 .testimonial_section .bg_area1 {
     height: 157px;
