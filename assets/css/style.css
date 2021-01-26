@@ -5561,7 +5561,9 @@ button {
 }
 .service_boxed_2 .item_title {
     float: left;
-    max-width: 160px;
+    max-width: 100%;
+    font-size: 20px;
+    font-family: 'Oswald';
 }
 .service_boxed_2 .item_icon {
     z-index: 1;
