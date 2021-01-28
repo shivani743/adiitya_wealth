@@ -3006,7 +3006,7 @@ button {
 .footer_section .footer_bottom {
     padding: 7px 0px;
     border-top: 1px solid #000000;
-    background-image: linear-gradient(-45deg, #1c0c80 0%, #3238b4 52%, #4763e7 100%);
+    background: #fff;
 }
 
 .footer_section .copyright_text .author_link {
@@ -3047,7 +3047,7 @@ button {
 
 .footer_section .footer_menu>ul>li>a {
     position: relative;
-    color: #ffffff;
+    color: #000000;
     font-size: 14px;
 }
 
