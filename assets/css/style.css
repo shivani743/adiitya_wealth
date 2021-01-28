@@ -21020,6 +21020,7 @@ button {
     .footer_section .widget_title {
         font-size: 17px;
         margin-bottom: 15px;
+        text-align: initial;
     }
     
     .footer_section .useful_links>ul>li {
@@ -22725,7 +22726,7 @@ button {
 }
 .text-c {
     color: #000;
-    font-size: 15px;
+    font-size: 14px;
     text-align: left;
 }
 .heading1 {
@@ -22988,4 +22989,17 @@ img {
 }
 .text1 {
     font-family: 'Oswald'!important;
+}
+.about-p {
+    font-family: 'Oswald';
+    font-size: 16px!important;
+    text-align: center;
+    color: #015ab9;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.about-item {
+    padding: 14px;
+    background: #f4f9ff;
+    border-left: 2px dotted #007bff;
 }
