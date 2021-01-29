@@ -23007,3 +23007,7 @@ img {
     font-family: 'Oswald';
     color: #007bff;
 }
+#images-style {
+    position: absolute;
+    top: 50px;
+}
