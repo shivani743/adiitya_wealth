@@ -23012,6 +23012,9 @@ img {
     top: 50px;
 }
 .text-icon {
-    color: #000;
+    color: #166bc5;
     margin-bottom: 0px;
+    font-family: 'Oswald';
+    font-size: 18px;
+    margin-top: 5px;
 }
