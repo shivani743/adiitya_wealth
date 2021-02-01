@@ -23025,3 +23025,7 @@ img {
     background-size: contain;
     margin: auto 0px;
 }
+.insurance-form {
+    background: #eceff1;
+    padding: 30px;
+}
