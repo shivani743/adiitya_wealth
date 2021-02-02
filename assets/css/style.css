@@ -22749,13 +22749,14 @@ button {
 .card {
     border-radius: .25rem;
     box-shadow: 1px 0px 8px #0000001a;
+    margin-top: 11px;
 }
 .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     min-height: 1px;
     padding: 9px;
-    background: #eceff1;
+    background: #ffffff;
 }
 .table thead th {
     vertical-align: bottom;
