@@ -23030,3 +23030,6 @@ img {
     background: #eceff1;
     padding: 30px;
 }
+#apply_section {
+    background-image: linear-gradient( 30deg, #301cab 0%, #5774fa 100%);
+}
