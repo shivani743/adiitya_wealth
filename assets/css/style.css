@@ -23018,6 +23018,7 @@ img {
     font-family: 'Oswald';
     font-size: 18px;
     margin-top: 6px;
+    text-align: center;
 }
 #images4 {
     width: 44%;
@@ -23027,9 +23028,21 @@ img {
     margin: auto 0px;
 }
 .insurance-form {
-    background: #eceff1;
-    padding: 30px;
+    background: #ffffff;
+    padding: 25px;
 }
 #apply_section {
     background-image: linear-gradient( 30deg, #301cab 0%, #5774fa 100%);
+}
+.captcha {
+    height: 50px;
+    margin-top: 0px;
+}
+.captcha_audio {
+    height: 40px;
+    margin-top: 30px;
+    display: none;
+}
+.block {
+    display: block;
 }
