@@ -102,6 +102,7 @@ p {
     margin-bottom: 1rem;
     font-size: 15px;
     color: #000;
+    font-weight: 400;
 }
 
 
@@ -22954,6 +22955,7 @@ img {
     font-size: 15px;
     text-align: left;
     color: #000000;
+    font-weight: 400;
 }
 .steps {
     background: #fff;
@@ -23045,4 +23047,14 @@ img {
 }
 .block {
     display: block;
+}
+.text-icon-invest {
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+.icon-box1 {
+    border: 1px dashed #fff;
+    padding: 10px;
 }
