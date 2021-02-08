@@ -23058,3 +23058,9 @@ img {
     border: 1px dashed #fff;
     padding: 10px;
 }
+.step-section {
+    background: #fff;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #eceff1;
+}
