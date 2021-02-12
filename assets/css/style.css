@@ -94,7 +94,7 @@ h5,
 h6 {
     line-height: 1.1;
     color: #051441;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald';
 }
 
 p {
@@ -3237,7 +3237,7 @@ button {
 }
 
 .breadcrumb_section .breadcrumb_content .page_title {
-    font-size: 64px;
+    font-size: 60px;
     line-height: 1.2;
     margin-bottom: 20px;
     letter-spacing: -0.9px;
@@ -5372,23 +5372,25 @@ button {
 
 /* service boxed 1 - start */
 .service_boxed_1 {
-    margin-top: 30px;
+    margin-top: 0px;
     padding: 19px 19px;
-    background-color: #ffffff;
+    background-color: #f3f3f382;
     -webkit-transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     -o-transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     -webkit-box-shadow: 0px 3px 4px 0px rgba(38, 59, 94, 0.1);
     box-shadow: 0px 3px 4px 0px rgba(38, 59, 94, 0.1);
     border-radius: 10px;
+    min-height: 140px;
 }
-.service_boxed_1:hover {
+
+/* .service_boxed_1:hover {
     -webkit-transform: translateY(-16px);
     -ms-transform: translateY(-16px);
     transform: translateY(-16px);
     -webkit-box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
     box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
-}
+} */
 .service_boxed_1 .icon_wrap {
     z-index: 1;
     position: relative;
@@ -23015,12 +23017,12 @@ img {
     top: 50px;
 }
 .text-icon {
-    color: #166bc5;
+    color: #000000;
     margin-bottom: 0px;
     font-family: 'Oswald';
     font-size: 18px;
     margin-top: 6px;
-    text-align: center;
+    text-align: initial;
 }
 #images4 {
     width: 44%;
