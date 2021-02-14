@@ -123,6 +123,10 @@ hr {
     background-image: linear-gradient(45deg, transparent, #e5e5e5, transparent);
 }
 
+.pb-50 {
+    padding-bottom: 50px;
+}
+
 .form_item {
     position: relative;
     margin-bottom: 0px;
@@ -1627,6 +1631,18 @@ hr {
 
 .bg_default_royalblue {
     background-color: #523cdc;
+}
+
+.bg-blue {
+    background-color: #d5eaff8a;
+}
+
+.txt-white {
+    color: #fff!important;
+}
+
+.txt-yellow {
+    color: #ffdf00!important;
 }
 
 
@@ -23065,4 +23081,25 @@ img {
     padding: 15px;
     margin-top: 10px;
     border: 1px solid #eceff1;
+}
+.invest {
+    height: 352px;
+    width: 67%;
+}
+#digital-gld {
+    height: 226px;
+    width: 64%;
+}
+.gold-icon {
+    color: #fff;
+    font-size: 23px;
+    padding: 11px;
+    border: 1px solid #fffefb;
+    border-radius: 10px;
+}
+.img-size {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
