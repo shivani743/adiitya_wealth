@@ -8689,10 +8689,11 @@ button {
     border: none;
     border-radius: 0px;
     margin-bottom: 0px;
-    padding-bottom: 19px;
+    padding-bottom: 0px;
     border-bottom: 1px solid #ffffff61;
     background: none;
     color: #fff;
+    padding: 13px;
 }
 .faq_section .faq_accordion .card:last-child {
     margin-bottom: 0px !important;
@@ -8705,11 +8706,11 @@ button {
 .faq_section .faq_accordion .card .card-header>a {
     width: 100%;
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     position: relative;
     padding-right: 20px;
     color: #000;
-    font-family: 'Sofia Pro Medium';
+    font-family: 'Oswald';
 }
 .faq_section .faq_accordion .card .card-header>a:before {
     top: 12px;
@@ -8734,7 +8735,7 @@ button {
 }
 .faq_section .faq_accordion .card .card-body {
     padding: 0px;
-    padding-top: 30px;
+    padding-top: 5px;
 }
 
 /* 23 - faq pages - end
@@ -23102,4 +23103,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.faq-p {
+    font-size: 14px;
 }
