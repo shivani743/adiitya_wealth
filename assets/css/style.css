@@ -118,9 +118,10 @@ hr {
     height: 1px;
     border: none;
     line-height: 1;
-    background-image: -webkit-linear-gradient(45deg, transparent, #e5e5e5, transparent);
+    background-image: -webkit-linear-gradient( 45deg, transparent, #e5e5e5, transparent);
     background-image: -o-linear-gradient(45deg, transparent, #e5e5e5, transparent);
-    background-image: linear-gradient(45deg, transparent, #e5e5e5, transparent);
+    background-image: linear-gradient( 45deg, #90909085, #90909099, #a7a7a74a);
+    margin-top: 0px;
 }
 
 .pb-50 {
@@ -524,6 +525,7 @@ hr {
     list-style: none;
     text-align: initial;
     font-size: 14px;
+    color: #000;
 }
 
 .ul_li_right>ul {
@@ -795,6 +797,10 @@ hr {
     margin-top: 30px;
 }
 
+.pb-150 {
+    padding-top: 120px;
+}
+
 
 /* padding - margin setting - end
 ================================================== */
@@ -815,7 +821,7 @@ hr {
     padding-bottom: 12px;
     text-align: center;
     position: relative;
-    border-radius: 45px;
+    border-radius: 5px;
     -webkit-transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     -o-transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -2892,7 +2898,7 @@ button {
 }
 
 .footer_section .widget_area {
-    padding: 0px 0px;
+    padding: 0px 1px 44px 0px;
 }
 
 .footer_section .deco_image_1 {
@@ -4914,7 +4920,7 @@ button {
     font-family: 'Oswald';
 }
 .feature_section .child_feature p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
 }
 .feature_section .child_feature_2 {
@@ -8713,10 +8719,10 @@ button {
     font-family: 'Oswald';
 }
 .faq_section .faq_accordion .card .card-header>a:before {
-    top: 12px;
+    top: 9px;
     right: 0px;
     line-height: 1;
-    font-size: 14px;
+    font-size: 16px;
     content: "\e61a";
     position: absolute;
     font-family: 'themify';
@@ -8744,9 +8750,9 @@ button {
 /* 24 - contact page - start
 ==================================================================================================== */
 .contact_section .contact_info {
-    margin-bottom: 35px;
-    padding-bottom: 35px;
-    border-bottom: 1px solid #eeebf6;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #cbcacb;
 }
 .contact_section .contact_info:last-child {
     border-bottom: none;
@@ -8754,8 +8760,9 @@ button {
     padding-bottom: 0px !important;
 }
 .contact_section .contact_info .list_title {
-    font-size: 24px;
-    margin-bottom: 25px;
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: #0058b7;
 }
 .contact_section .contact_info>ul>li span {
     margin-right: 8px;
@@ -21775,8 +21782,9 @@ button {
     /* contact page - start */
     
     .contact_section .contact_info .list_title {
-        font-size: 20px;
-        margin-bottom: 15px;
+        font-size: 19px;
+        margin-bottom: 10px;
+        color: #0058b7;
     }
     
     .contact_section .contact_info {
@@ -22692,14 +22700,14 @@ button {
     list-style: none;
 }
 .home--reason-head {
-    font-size: 20px;
+    font-size: 17px;
     margin-bottom: 0px;
     color: #000;
     font-weight: 300;
     font-family: 'Oswald', sans-serif!important;
 }
 .home--reason-para {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 22px;
     color: #4d4d4d;
     margin-bottom: 12px;
@@ -23039,7 +23047,7 @@ img {
     font-family: 'Oswald';
     font-size: 18px;
     margin-top: 6px;
-    text-align: initial;
+    text-align: center!important;
 }
 #images4 {
     width: 44%;
@@ -23106,4 +23114,14 @@ img {
 }
 .faq-p {
     font-size: 14px;
+}
+label {
+    display: inline-block;
+    margin-bottom: .2rem;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+.form-group {
+    margin-bottom: 8px;
 }
