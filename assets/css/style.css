@@ -533,7 +533,7 @@ hr {
 .ul_li_right>ul {
     margin: 0px;
     padding: 0px;
-    left: 25%;
+    left: 20%;
     right: 50%;
     position: relative;
 }
@@ -554,6 +554,10 @@ hr {
     float: left;
     list-style: none;
     display: inline-block;
+}
+
+#nav-color {
+    background: #28a745;
 }
 
 
@@ -2157,14 +2161,14 @@ button {
     display: block;
     line-height: 1;
     font-size: 16px;
-    color: #051441;
+    color: #fff;
     font-weight: 500;
     font-family: 'Oswald';
 }
 
 .header_section .main_menu>ul>li:hover>a,
 .header_section .main_menu>ul>li.active>a {
-    color: #4154f1;
+    color: #ffe600;
 }
 
 .header_section .btn {
@@ -18376,7 +18380,7 @@ button {
     .sidebar-menu-wrapper .mobile_menu .menu_list .dropdown-menu li a {
         font-size: 14px;
         padding: 10px 40px;
-        padding-left: 50px;
+        padding-left: 30px;
     }
     /* header - end */
     /* footer - start */
