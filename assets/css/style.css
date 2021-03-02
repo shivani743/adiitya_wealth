@@ -6,7 +6,7 @@ body {
     line-height: 1.867;
     font-style: normal;
     color: #6a7c92;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins';
     background-color: #ffffff;
     text-rendering: optimizelegibility;
     -moz-osx-font-smoothing: grayscale;
@@ -3078,6 +3078,7 @@ button {
     position: relative;
     color: #000000;
     font-size: 14px;
+    font-family: 'poppins';
 }
 
 .footer_section .footer_menu>ul>li>a:before {
@@ -22733,7 +22734,7 @@ button {
 .foot-p {
     color: #bdbdbd;
     line-height: 19px;
-    font-size: 13px;
+    font-size: 12px;
 }
 .call-request {
     font-size: 16px;
@@ -22833,7 +22834,7 @@ button {
 .label1 {
     color: #4CAF50;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 13px;
 }
 #slider {
     margin: 0 auto;
@@ -22928,26 +22929,29 @@ img {
     font-weight: 500;
 }
 .equity-form {
-    background: #ffe600;
-    padding: 20px;
+    background: #28a745;
+    padding: 41px 32px 41px;
 }
 .eq-heading {
     font-size: 20px;
     text-align: center;
     font-family: 'Oswald';
+    color: #fff;
 }
 .equity-p1 {
     text-align: center;
     color: #000;
-    font-family: 'Open Sans';
+    font-family: 'poppins';
     margin-top: -4px;
+    color: #fff;
 }
 .place {
-    background: #ffc70d;
+    background: #33ca55;
     padding: 5px;
     border-radius: 10px;
     width: 100%;
     margin-left: 5px;
+    color: #fff;
 }
 .margin-both {
     padding-left: 3px;
@@ -22956,7 +22960,7 @@ img {
 }
 .m-btm {
     margin-bottom: 0px;
-    color: #000;
+    color: #fff;
     font-size: 10px;
     font-weight: 600;
 }
@@ -22965,7 +22969,7 @@ img {
 }
 .eq-icon-haeding {
     margin-top: 21px;
-    color: #ffe600;
+    color: #dbdbdb;
     font-weight: 400;
     font-family: 'Oswald';
 }
@@ -23462,5 +23466,144 @@ label {
 /*-- //responsive design --*/
 
 /*-- //form styling --*/
+.toggle {
+    font-family: arial, sans-serif;
+}
+.toggle .tabs {
+    border-bottom: 1px solid grey;
+    width: 100%;
+    overflow: hidden;
+    height: 36px;
+    line-height: 36px;
+}
+.toggle .tabs .tab {
+    float: left;
+    background: white;
+    color: #000000;
+    height: 33px;
+    margin: 2px 8px 0;
+    padding: 0 8px;
+    cursor: pointer;
+    width: 23%;
+    text-align: center;
+}
+.toggle .tabs .tab.active {
+    color: #007bff;
+    border-bottom: 3px solid #007bff;
+    font-family: poppins;
+}
+.toggle .panels .panel {
+    padding: 20px 10px;
+    display: none;
+}
+.toggle .panels .panel:first-child {
+    display: block;
+}
+h2,
+details {
+    display: inline;
+}
+details {
+    position: relative;
+}
+details summary {
+    display: block;
+    cursor: pointer;
+    color: #18cc41;
+}
+details summary:focus {
+    outline: none;
+}
+details[open] {
+    display: block;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    animation: open .2s linear;
+}
+details[open] summary {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+details #open {
+    padding-left: 5px;
+    text-align: middle;
+}
+details #open:after {
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    padding-left: 8px;
+    content: "\00bb";
+    transform: rotate(90deg);
+}
+details[open] #open {
+    display: none;
+}
+details #close {
+    display: none;
+}
+details[open] #close {
+    display: block;
+}
+ ::-webkit-details-marker {
+    display: none;
+}
+@keyframes open {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
-/* <source :http://webdesignerhut.com/examples/pure-css-tabs/> */
+/*Responsive code */
+@media (min-width:240px) and (max-width:359.98px) {
+    .banner_section.text-white .banner_content .title_text {
+        font-size: 30px;
+    }
+    
+    .mobile-form {
+        width: 100%;
+        margin-left: -15px;
+    }
+    
+    .job_item {
+        max-width: 368px;
+        margin: 0px auto;
+        padding: 13px 17px;
+    }
+    
+    .job_item .item_icon {
+        margin: 0px;
+        width: auto;
+        border: none;
+        height: auto;
+    }
+    
+    .home--reason {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 17px;
+        list-style: none;
+        margin-left: -25px;
+    }
+    
+    .feature_section .section_title .tabs_nav>ul>li>a {
+        font-size: 14px;
+        padding: 5px 13px;
+    }
+    
+    .testimonial_section.mb-80 {
+        margin-bottom: 432px;
+    }
+    
+    .testimonial_section .testimonial_carousel_2 .testimonial_item {
+        max-width: 100%;
+        margin: 0px auto;
+    }
+}
