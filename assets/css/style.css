@@ -21086,7 +21086,7 @@ button {
     .header_section,
     .sticky_header.stuck {
         min-height: auto;
-        padding: 15px 0px;
+        padding: 19px 15px!important;
     }
     
     .footer_section .deco_image_1,
@@ -23462,3 +23462,5 @@ label {
 /*-- //responsive design --*/
 
 /*-- //form styling --*/
+
+/* <source :http://webdesignerhut.com/examples/pure-css-tabs/> */
