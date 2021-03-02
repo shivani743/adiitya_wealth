@@ -682,7 +682,7 @@ hr {
     overflow: hidden;
     position: relative;
     border-radius: 100%;
-    color: #6a7c92;
+    color: #fff;
     background-color: rgba(65, 84, 241, 0.05);
 }
 
@@ -23557,6 +23557,43 @@ details[open] #close {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+/*social media*/
+li.facebook {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background: #4448d3;
+    color: #fff;
+}
+li.twitter {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background: #55ACEE;
+    color: #fff;
+}
+li.youtube {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background: #bb0000;
+    color: #fff;
+}
+li.linkedin {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background: #007bb5;
+    color: #fff;
+}
+li.instagram {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background: #cb2027;
+    color: #fff;
 }
 
 /*Responsive code */
