@@ -23499,7 +23499,6 @@ label {
 .toggle .panels .panel:first-child {
     display: block;
 }
-h2,
 details {
     display: inline;
 }
