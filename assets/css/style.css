@@ -23525,7 +23525,6 @@ details[open] summary {
     left: 0;
 }
 details #open {
-    padding-left: 5px;
     text-align: middle;
 }
 details #open:after {
@@ -23561,7 +23560,7 @@ details[open] #close {
 }
 
 /*Responsive code */
-@media (min-width:240px) and (max-width:359.98px) {
+@media (min-width:240px) and (max-width:480.98px) {
     .banner_section.text-white .banner_content .title_text {
         font-size: 30px;
     }
