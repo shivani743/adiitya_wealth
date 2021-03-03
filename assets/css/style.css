@@ -22684,7 +22684,7 @@ button {
     padding: 0px;
 }
 .h11 {
-    color: #0069da;
+    color: #000;
     font-weight: bold;
     font-size: 52px;
     text-shadow: 0px 8px 6px #0000002b;
@@ -22924,7 +22924,7 @@ img {
     margin-top: 17px;
     font-size: 17px!important;
     font-family: 'Oswald';
-    color: #0069da;
+    color: #28a745;
     margin-bottom: 0px;
     line-height: 21px;
     font-weight: 500;
@@ -23056,7 +23056,6 @@ img {
     color: #000000;
 }
 #images-style {
-    position: absolute;
     top: 50px;
 }
 .text-icon {
@@ -23251,15 +23250,17 @@ label {
     color: #1364CF;
 }
 .w3l-travel-form h2 {
-    font-size: 30px;
+    font-size: 44px;
     color: #fff;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
+    text-shadow: 2px 4px 3px #000;
 }
 .w3l-travel-form .travel-block-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 70px;
-    width: 70%;
+    grid-template-columns: 2fr 1fr;
+    /* grid-gap: 72px; */
+    
+    width: 100%;
     margin: 0 auto;
     align-items: center;
 }
