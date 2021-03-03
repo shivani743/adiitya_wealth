@@ -23643,4 +23643,8 @@ li.instagram {
         max-width: 100%;
         margin: 0px auto;
     }
+    
+    .equity-area {
+        min-height: 938px!important;
+    }
 }
