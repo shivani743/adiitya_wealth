@@ -23201,6 +23201,11 @@ label {
     margin-right: auto;
     margin-left: auto;
 }
+#background-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /*-- //wrapper start --*/
 
