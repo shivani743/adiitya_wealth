@@ -709,7 +709,8 @@ hr {
     opacity: 0;
 }
 
-.social_icon_rounded>ul>li>a:hover {
+
+/* .social_icon_rounded>ul>li>a:hover {
     color: #ffffff;
     background-color: #4154f1;
 }
@@ -732,7 +733,7 @@ hr {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-}
+} */
 
 
 /* social icon - end
