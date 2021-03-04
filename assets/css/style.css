@@ -23206,6 +23206,9 @@ label {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.footer-line {
+    display: flex;
+}
 
 /*-- //wrapper start --*/
 
@@ -23605,6 +23608,10 @@ li.instagram {
 
 /*Responsive code */
 @media (min-width:240px) and (max-width:480.98px) {
+    .footer-line {
+        display: block;
+    }
+    
     .banner_section.text-white .banner_content .title_text {
         font-size: 30px;
     }
