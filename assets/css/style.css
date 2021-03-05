@@ -23605,6 +23605,14 @@ li.instagram {
     background: #cb2027;
     color: #fff;
 }
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #000;
+    font-size: 13px;
+}
 
 /*Responsive code */
 @media (min-width:240px) and (max-width:480.98px) {
