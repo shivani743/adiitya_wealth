@@ -14737,10 +14737,10 @@ button {
     }
     /* global reset - end */
     /* header - start */
-    
-    .header_section .brand_logo>.brand_link {
+    /* .header_section .brand_logo>.brand_link {
         max-width: 125px;
     }
+     */
     
     .header_section .btn,
     .header_section .main_menu,
@@ -16722,10 +16722,9 @@ button {
     }
     /* global reset - end */
     /* header - start */
-    
-    .header_section .brand_logo>.brand_link {
+    /* .header_section .brand_logo>.brand_link {
         max-width: 115px;
-    }
+    } */
     
     .header_section .menu_btn {
         font-size: 25px;
@@ -17547,7 +17546,8 @@ button {
     
     .header_section .brand_logo>.brand_link,
     .sticky_header.stuck .brand_logo>.brand_link {
-        max-width: 115px;
+        max-width: 250px;
+        margin-left: -37px;
     }
     
     .banner_section .form_item .btn {
@@ -19178,6 +19178,7 @@ button {
     
     .team_grid .member_title {
         font-size: 14px;
+        line-height: 25px;
     }
     /* about page - end */
     /* service page - start */
@@ -22910,6 +22911,10 @@ img {
 .price-pad {
     padding: 93px 0px!important;
 }
+.tab-content>.active {
+    display: block;
+    overflow: auto;
+}
 
 /*Equity-tradin*/
 .equity-p {
@@ -23175,17 +23180,17 @@ label {
     margin-right: auto;
 }
 .icon-name {
-    font-family: 'Open Sans'!important;
     text-align: center;
     margin-bottom: 0px;
     font-size: 18px;
+    margin-top: 10px;
 }
 .doc-name {
-    font-family: 'Open Sans'!important;
     text-align: center;
     margin-bottom: 0px;
     font-size: 14px;
     line-height: 21px;
+    margin-top: 15px!important;
 }
 .doc-card {
     background: #fff;
@@ -23605,6 +23610,13 @@ li.instagram {
     background: #cb2027;
     color: #fff;
 }
+li.whatsapp {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background: #25d366;
+    color: #fff;
+}
 dl,
 ol,
 ul {
@@ -23613,9 +23625,16 @@ ul {
     color: #000;
     font-size: 13px;
 }
+.bg-green {
+    background-image: linear-gradient( -45deg, #0c7022 0%, #00b129 52%, #2c8c42 100%);
+}
 
 /*Responsive code */
 @media (min-width:240px) and (max-width:480.98px) {
+    .service_section .tabs_nav>ul>li>a {
+        padding: 9px 8px;
+    }
+    
     .footer-line {
         display: block;
     }
@@ -23666,5 +23685,9 @@ ul {
     
     .equity-area {
         min-height: 938px!important;
+    }
+    
+    .container {
+        margin-top: 3em;
     }
 }
