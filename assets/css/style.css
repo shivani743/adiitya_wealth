@@ -23691,3 +23691,29 @@ ul {
         margin-top: 3em;
     }
 }
+.call-button {
+    font-size: 16px!important;
+    padding: 10px!important;
+    ;
+    padding-bottom: 9px!important;
+    ;
+    -webkit-box-shadow: 0px 30px 30px 0px rgb(0 11 40 / 10%);
+    box-shadow: 0px 30px 30px 0px rgb(0 11 40 / 10%);
+}
+.wp-button {
+    margin-top: 0px;
+}
+.float {
+    width: 40px;
+    height: 40px;
+    /* bottom: 40px; */
+    /* right: 40px; */
+    
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 23px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
