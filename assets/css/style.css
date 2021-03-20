@@ -23810,3 +23810,14 @@ ul {
 .open-ac {
     padding: 7px 0px!important;
 }
+.text-items {
+    color: #000;
+    font-size: 14px;
+    margin-left: -25px;
+}
+.txt-white {
+    color: #fff;
+}
+.bod-left-white {
+    border-left: 1px solid #fff;
+}
