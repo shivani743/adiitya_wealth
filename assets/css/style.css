@@ -1658,6 +1658,33 @@ hr {
     color: #ffdf00!important;
 }
 
+.txt-red {
+    color: red;
+    text-align: center;
+}
+
+.contact-form {
+    border: 1px solid #eceff1;
+    padding: 10px;
+    background: #00497b;
+}
+
+.bod-left {
+    border-left: 1px solid #bdbdbd;
+}
+
+.m-bottom-0 {
+    margin-bottom: 0rem;
+}
+
+.bg-gray1 {
+    background: #00bcd41c;
+}
+
+.green-circle {
+    color: green;
+}
+
 
 /* custom colors - end
 ================================================== */
@@ -23820,4 +23847,7 @@ ul {
 }
 .bod-left-white {
     border-left: 1px solid #fff;
+}
+.pad-30 {
+    padding: 30px;
 }
